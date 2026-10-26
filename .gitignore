@@ -1,0 +1,23 @@
+# MATLAB backup, autosave, and temporary files
+*.asv
+*.autosave
+*.m~
+*.mex*
+*.tmp
+*.bak
+
+# MATLAB figures and generated data
+*.fig
+*.mat
+
+# MATLAB project and cache files
+*.prj
+*.mlproj
+*.slxc
+*.sldd
+*.mldatx
+*.p
+
+# Operating system files
+.DS_Store
+Thumbs.db
