@@ -86,13 +86,24 @@ plot(t_clean,h_clean);
 hold on;
 yline(h_min, 'b');
 yline(h_max, 'r');
+title('Passo de integração');
+xlabel('Tempo (s)');
+ylabel('Passo (s)');
 
 figure(2);
 plot(y_clean(:,1),y_clean(:,2));
+title('Atrator de Lorenz');
+xlabel('x');
+ylabel('y');
 
 figure(3);
 plot(y_clean(:,2),y_clean(:,3));
+title('Atrator de Lorenz');
+xlabel('y');
+ylabel('z');
 
 figure(3);
 plot(t_clean, error_clean);
-
+title('Erro estimado');
+xlabel('Tempo (s)');
+ylabel('Erro estimado');
